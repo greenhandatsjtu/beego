@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+      - fix/orm_pg_comment
+      - feat/refactor-orm
     paths:
       - "**/*.go"
       - ".github/workflows/golangci-lint.yml"
